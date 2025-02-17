@@ -1,10 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
-import {CommonModule, NgClass} from '@angular/common';
-import {MatCard, MatCardContent} from '@angular/material/card';
-import {MatFormField, MatLabel} from '@angular/material/form-field';
-import {MatOption, MatSelect} from '@angular/material/select';
-import {MatGridList} from '@angular/material/grid-list';
+import {CommonModule} from '@angular/common';
+
 
 interface Leader {
   id: string;
@@ -21,18 +18,15 @@ interface Civilization {
   strategic: string[]
 
   unlockedByLeader: string[]
-
   unlockedByCivilizations: string[]
-
   unlockedByConditions: string[]
-
 }
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, NgClass, MatCard, MatCardContent, MatFormField, MatLabel, MatSelect, MatOption, MatGridList],
+  imports: [CommonModule],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
