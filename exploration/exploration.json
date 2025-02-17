@@ -1,0 +1,79 @@
+[
+  {
+    "id": "E1",
+    "name": "Abbasid",
+    "unlockedByLeader" : ["L12"],
+    "unlockedByCivilizations" : ["A2", "A9"],
+    "unlockedByConditions" : ["Improve 3 Camels"]
+  },
+  {
+    "id": "E2",
+    "name": "Chola",
+    "unlockedByLeader" : ["L2", "L22"],
+    "unlockedByCivilizations" : ["A5", "A6"],
+    "unlockedByConditions" : ["Have 3 City Center adjacent to Coast"]
+  },
+  {
+    "id": "E3",
+    "name": "Hawaii",
+    "unlockedByLeader" : ["L14"],
+    "unlockedByCivilizations" : ["A7", "A8"],
+    "unlockedByConditions" : ["Have 2 Setllements on an island"]
+  },
+  {
+    "id": "E4",
+    "name": "Inca",
+    "unlockedByLeader" : ["L18"],
+    "unlockedByCivilizations" : ["A7", "A8"],
+    "unlockedByConditions" : ["Have 3 Settlements with at least 3 Mountains"]
+  },
+  {
+    "id": "E5",
+    "name": "Majapahit",
+    "unlockedByLeader" : ["L20"],
+    "unlockedByCivilizations" : ["A5", "A6"],
+    "unlockedByConditions" : ["Have at least 3 naval Trade Routes.", "Improve 3 Pearls"]
+  },
+  {
+    "id": "E6",
+    "name": "Ming",
+    "unlockedByLeader" : ["L7"],
+    "unlockedByCivilizations" : ["A4"],
+    "unlockedByConditions" : ["Improve 3 Silk", "Have 8 Resources in one Settlement"]
+  },
+  {
+    "id": "E7",
+    "name": "Mongolia",
+    "unlockedByLeader" : [],
+    "unlockedByCivilizations" : ["LA4", "A9"],
+    "unlockedByConditions" : ["Improve 3 Horses", "Have 3 Siege units"]
+  },
+  {
+    "id": "E8",
+    "name": "Norman",
+    "unlockedByLeader" : ["L6"],
+    "unlockedByCivilizations" : ["A3", "A10"],
+    "unlockedByConditions" : ["Improve 3 Iron", "Build 5 Walls"]
+  },
+  {
+    "id": "E9",
+    "name": "Shawnee",
+    "unlockedByLeader" : ["L19"],
+    "unlockedByCivilizations" : ["A8"],
+    "unlockedByConditions" : ["Improve 3 Hides", "Be Suzerain of 2 City-States"]
+  },
+  {
+    "id": "E10",
+    "name": "Songhai",
+    "unlockedByLeader" : ["L1"],
+    "unlockedByCivilizations" : ["A1", "A2"],
+    "unlockedByConditions" : ["Have 3 Settlements with at least 3 Navigable River tiles each"]
+  },
+  {
+    "id": "E11",
+    "name": "Spain",
+    "unlockedByLeader" : ["L13"],
+    "unlockedByCivilizations" : ["A3", "A10"],
+    "unlockedByConditions" : ["Reconquer a lost Settlement."]
+  }
+]

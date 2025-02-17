@@ -1,0 +1,72 @@
+[
+  {
+    "id": "A1",
+    "name": "Aksum",
+    "historic": [],
+    "geographic": ["L1", "L10", "L12"],
+    "strategic": ["L9"]
+  },
+  {
+    "id": "A2",
+    "name": "Egypt",
+    "historic": ["L3", "L10"],
+    "geographic": ["L1", "L13", "L12"],
+    "strategic": ["L23", "L8", "L9"]
+  },
+  {
+    "id": "A3",
+    "name": "Greece",
+    "historic": [],
+    "geographic": ["L6", "L13", "L15", "L16"],
+    "strategic": ["L4", "L5"]
+  },
+  {
+    "id": "A4",
+    "name": "Han",
+    "historic": [],
+    "geographic": ["L7"],
+    "strategic": []
+  },
+  {
+    "id": "A5",
+    "name": "Khmer",
+    "historic": ["L2"],
+    "geographic": ["L22", "L24", "L11", "L20"],
+    "strategic": []
+  },
+  {
+    "id": "A6",
+    "name": "Maurya",
+    "historic": ["L2"],
+    "geographic": ["L22", "L20", "L26", "L21"],
+    "strategic": []
+  },
+  {
+    "id": "A7",
+    "name": "Maya",
+    "historic": [],
+    "geographic": ["L18"],
+    "strategic": ["L14"]
+  },
+  {
+    "id": "A8",
+    "name": "Mississippian",
+    "historic": [],
+    "geographic": ["L24", "L19"],
+    "strategic": ["L11", "L14", "L18"]
+  },
+  {
+    "id": "A9",
+    "name": "Persia",
+    "historic": ["L12", "L21", "L26"],
+    "geographic": [],
+    "strategic": ["L25", "L17"]
+  },
+  {
+    "id": "A10",
+    "name": "Rome",
+    "historic": ["L3"],
+    "geographic": ["L6", "L8", "L23", "L15", "L16", "L17", "L25"],
+    "strategic": ["L4", "L5"]
+  }
+]
