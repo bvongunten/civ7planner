@@ -1,0 +1,76 @@
+<div class="background">
+  <h1 class="header">Civilization VII Planner</h1>
+
+
+  <h2 class="title">Leader</h2>
+
+  <!-- Responsive Leader Grid -->
+  <div class="responsive-grid">
+    <div *ngFor="let leader of leaders"
+         class="entry-card"
+         (click)="selectLeader(leader)"
+         [class.selected]="leader === selectedLeader">
+      <img [src]="'leaders/' + leader.id + '.webp'" [alt]="leader.name" class="entry-image"/>
+      <p class="entry-name">{{ leader.name }}</p>
+    </div>
+  </div>
+
+
+  <div *ngIf="selectedLeader">
+    <h2 class="title">Antiquity Civilization</h2>
+
+    <div class="responsive-grid">
+      <div *ngFor="let civilization of antiquityCivs"
+           class="entry-card"
+           (click)="selectAntiquityCiv(civilization)"
+           [class.selected]="civilization === selectedAntiquityCiv" >
+      <img [src]="'antiquity/' + civilization.id + '.webp'" [alt]="civilization.name" class="entry-image"/>
+        <p class="entry-name">{{ civilization.name }}</p>
+        <p class="entry-description" [innerHTML]="unlockCheck(civilization) "></p>
+      </div>
+    </div>
+
+  </div>
+
+  <div *ngIf="selectedAntiquityCiv">
+    <h2 class="title">Exploration Civilization</h2>
+
+    <div class="responsive-grid">
+      <div *ngFor="let civilization of explorationCivs"
+           class="entry-card"
+           (click)="selectExplorationCiv(civilization)"
+           [class.selected]="civilization === selectedExplorationCiv" >
+        <img [src]="'exploration/' + civilization.id + '.webp'" [alt]="civilization.name" class="entry-image"/>
+        <p class="entry-name">{{ civilization.name }}</p>
+        <p class="entry-description" [innerHTML]="unlockCheck(civilization) "></p>
+      </div>
+    </div>
+
+    <div *ngIf="isCivilizationUnlocked(selectedExplorationCiv)">
+      <p class="unlock-description"  [innerHTML]="getCivilizationUnlockConditions(selectedExplorationCiv)"></p>
+    </div>
+
+  </div>
+
+  <div *ngIf="selectedExplorationCiv">
+    <h2 class="title">Modern Civilization</h2>
+
+    <div class="responsive-grid">
+      <div *ngFor="let civilization of modernCivs"
+           class="entry-card"
+           (click)="selectModernCiv(civilization)"
+           [class.selected]="civilization === selectedModernCiv" >
+        <img [src]="'modern/' + civilization.id + '.webp'" [alt]="civilization.name" class="entry-image"/>
+        <p class="entry-name">{{ civilization.name }}</p>
+        <p class="entry-description" [innerHTML]="unlockCheck(civilization) "></p>
+      </div>
+    </div>
+
+    <div *ngIf="isCivilizationUnlocked(selectedModernCiv)">
+      <p class="unlock-description"  [innerHTML]="getCivilizationUnlockConditions(selectedModernCiv)"></p>
+    </div>
+
+  </div>
+
+
+</div>
