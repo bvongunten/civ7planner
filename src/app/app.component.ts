@@ -49,7 +49,7 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     this.selectedLeader = null;
 
-    this.http.get<Leader[]>('/leaders/leaders.json').subscribe({
+    this.http.get<Leader[]>('./leaders/leaders.json').subscribe({
       next: (data) => {
         this.leaders = data.sort((a, b) => a.name.localeCompare(b.name));
       },
@@ -57,21 +57,21 @@ export class AppComponent implements OnInit {
     });
 
 
-    this.http.get<Civilization[]>('/antiquity/antiquity.json').subscribe({
+    this.http.get<Civilization[]>('./antiquity/antiquity.json').subscribe({
       next: (data) => {
         this.antiquityCivs = data.sort((a, b) => a.name.localeCompare(b.name));
       },
       error: (err) => console.error('Failed to load anitquity civs:', err),
     });
 
-    this.http.get<Civilization[]>('/exploration/exploration.json').subscribe({
+    this.http.get<Civilization[]>('./exploration/exploration.json').subscribe({
       next: (data) => {
         this.explorationCivs = data.sort((a, b) => a.name.localeCompare(b.name));
       },
       error: (err) => console.error('Failed to load exploration civs:', err),
     });
 
-    this.http.get<Civilization[]>('/modern/modern.json').subscribe({
+    this.http.get<Civilization[]>('./modern/modern.json').subscribe({
       next: (data) => {
         this.modernCivs = data.sort((a, b) => a.name.localeCompare(b.name));
       },
