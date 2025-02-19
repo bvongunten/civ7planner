@@ -4,76 +4,142 @@
     "name": "Abbasid",
     "unlockedByLeader" : ["L12"],
     "unlockedByCivilizations" : ["A2", "A9"],
-    "unlockedByConditions" : ["Improve 3 Camels"]
+    "unlockedByConditions" : ["Improve 3 Camels."],
+    "cultural" : true,
+    "diplomatic" : false,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : true
   },
   {
     "id": "E2",
     "name": "Chola",
     "unlockedByLeader" : ["L2", "L22"],
     "unlockedByCivilizations" : ["A5", "A6"],
-    "unlockedByConditions" : ["Have 3 City Center adjacent to Coast"]
+    "unlockedByConditions" : ["Have 3 City Center adjacent to Coast."],
+    "cultural" : false,
+    "diplomatic" : true,
+    "economic" : true,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "E3",
     "name": "Hawaii",
     "unlockedByLeader" : ["L14"],
     "unlockedByCivilizations" : ["A7", "A8"],
-    "unlockedByConditions" : ["Have 2 Setllements on an island"]
+    "unlockedByConditions" : ["Have 2 Setllements on an island."],
+    "cultural" : true,
+    "diplomatic" : false,
+    "economic" : false,
+    "expansionist" : true,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "E4",
     "name": "Inca",
     "unlockedByLeader" : ["L18"],
     "unlockedByCivilizations" : ["A7", "A8"],
-    "unlockedByConditions" : ["Have 3 Settlements with at least 3 Mountains"]
+    "unlockedByConditions" : ["Have 3 Settlements with at least 3 Mountains."],
+    "cultural" : false,
+    "diplomatic" : false,
+    "economic" : true,
+    "expansionist" : true,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "E5",
     "name": "Majapahit",
     "unlockedByLeader" : ["L20"],
     "unlockedByCivilizations" : ["A5", "A6"],
-    "unlockedByConditions" : ["Have at least 3 naval Trade Routes.", "Improve 3 Pearls"]
+    "unlockedByConditions" : ["Have at least 3 naval Trade Routes.", "Improve 3 Pearls."],
+    "cultural" : true,
+    "diplomatic" : false,
+    "economic" : true,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "E6",
     "name": "Ming",
     "unlockedByLeader" : ["L7"],
     "unlockedByCivilizations" : ["A4"],
-    "unlockedByConditions" : ["Improve 3 Silk", "Have 8 Resources in one Settlement"]
+    "unlockedByConditions" : ["Improve 3 Silk.", "Have 8 Resources in one Settlement."],
+    "cultural" : false,
+    "diplomatic" : false,
+    "economic" : true,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : true
   },
   {
     "id": "E7",
     "name": "Mongolia",
     "unlockedByLeader" : [],
     "unlockedByCivilizations" : ["LA4", "A9"],
-    "unlockedByConditions" : ["Improve 3 Horses", "Have 3 Siege units"]
+    "unlockedByConditions" : ["Improve 3 Horses.", "Have 3 Siege units."],
+    "cultural" : false,
+    "diplomatic" : false,
+    "economic" : false,
+    "expansionist" : true,
+    "militaristic" : true,
+    "scientific" : false
   },
   {
     "id": "E8",
     "name": "Norman",
     "unlockedByLeader" : ["L6"],
     "unlockedByCivilizations" : ["A3", "A10"],
-    "unlockedByConditions" : ["Improve 3 Iron", "Build 5 Walls"]
+    "unlockedByConditions" : ["Improve 3 Iron.", "Build 5 Walls."],
+    "cultural" : false,
+    "diplomatic" : true,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : true,
+    "scientific" : false
   },
   {
     "id": "E9",
     "name": "Shawnee",
     "unlockedByLeader" : ["L19"],
     "unlockedByCivilizations" : ["A8"],
-    "unlockedByConditions" : ["Improve 3 Hides", "Be Suzerain of 2 City-States"]
+    "unlockedByConditions" : ["Improve 3 Hides.", "Be Suzerain of 2 City-States."],
+    "cultural" : false,
+    "diplomatic" : true,
+    "economic" : true,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "E10",
     "name": "Songhai",
     "unlockedByLeader" : ["L1"],
     "unlockedByCivilizations" : ["A1", "A2"],
-    "unlockedByConditions" : ["Have 3 Settlements with at least 3 Navigable River tiles each"]
+    "unlockedByConditions" : ["Have 3 Settlements with at least 3 Navigable River tiles each."],
+    "cultural" : false,
+    "diplomatic" : false,
+    "economic" : true,
+    "expansionist" : false,
+    "militaristic" : true,
+    "scientific" : false
   },
   {
     "id": "E11",
     "name": "Spain",
     "unlockedByLeader" : ["L13"],
     "unlockedByCivilizations" : ["A3", "A10"],
-    "unlockedByConditions" : ["Reconquer a lost Settlement."]
+    "unlockedByConditions" : ["Reconquer a lost Settlement."],
+    "cultural" : false,
+    "diplomatic" : false,
+    "economic" : false,
+    "expansionist" : true,
+    "militaristic" : true,
+    "scientific" : false
   }
 ]

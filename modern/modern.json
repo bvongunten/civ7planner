@@ -4,69 +4,129 @@
     "name": "America",
     "unlockedByLeader" : ["L4", "L9", "L19"],
     "unlockedByCivilizations" : ["A10", "E8", "E9"],
-    "unlockedByConditions" : ["Have three Distant Lands Settlements in either Plains or Grasslands"]
+    "unlockedByConditions" : ["Have three Distant Lands Settlements in either Plains or Grasslands."],
+    "cultural" : false,
+    "diplomatic" : false,
+    "economic" : true,
+    "expansionist" : true,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "M2",
     "name": "Buganda",
     "unlockedByLeader" : ["L1"],
     "unlockedByCivilizations" : ["E1", "E10"],
-    "unlockedByConditions" : ["Have 2 Settlements with their City Center adjacent to a Lake"]
+    "unlockedByConditions" : ["Have 2 Settlements with their City Center adjacent to a Lake."],
+    "cultural" : false,
+    "diplomatic" : false,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "M3",
     "name": "French Empire",
     "unlockedByLeader" : ["L15", "L17", "L25"],
     "unlockedByCivilizations" : ["A10", "E8"],
-    "unlockedByConditions" : ["Improve 3 Wine"]
+    "unlockedByConditions" : ["Improve 3 Wine."],
+    "cultural" : true,
+    "diplomatic" : true,
+    "economic" : false,
+    "expansionist" : true,
+    "militaristic" : true,
+    "scientific" : false
   },
   {
     "id": "M4",
     "name": "Meiji Japan",
     "unlockedByLeader" : ["L11", "L24"],
     "unlockedByCivilizations" : ["E3", "E5"],
-    "unlockedByConditions" : ["Improve 3 Tea"]
+    "unlockedByConditions" : ["Improve 3 Tea."],
+    "cultural" : false,
+    "diplomatic" : false,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : true,
+    "scientific" : true
   },
   {
     "id": "M5",
     "name": "Mexico",
     "unlockedByLeader" : ["L13", "L19"],
     "unlockedByCivilizations" : ["A7", "E4", "E9", "E10"],
-    "unlockedByConditions" : ["Have three Distant Lands Settlements in either Desert or Tropical"]
+    "unlockedByConditions" : ["Have three Distant Lands Settlements in either Desert or Tropical."],
+    "cultural" : true,
+    "diplomatic" : true,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "M6",
     "name": "Mughal",
     "unlockedByLeader" : [],
     "unlockedByCivilizations" : ["A9", "E1", "E2"],
-    "unlockedByConditions" : ["Improve 3 Salt", "Have at least 4 Trade Routes with unique Civilizations"]
+    "unlockedByConditions" : ["Improve 3 Salt", "Have at least 4 Trade Routes with unique Civilizations."],
+    "cultural" : false,
+    "diplomatic" : false,
+    "economic" : true,
+    "expansionist" : true,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "M7",
     "name": "Prussia",
     "unlockedByLeader" : ["L8", "L23"],
     "unlockedByCivilizations" : ["A10"],
-    "unlockedByConditions" : ["Improve 3 Niter.", "Have 3 Army Commanders."]
+    "unlockedByConditions" : ["Improve 3 Niter.", "Have 3 Army Commanders."],
+    "cultural" : false,
+    "diplomatic" : true,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : true,
+    "scientific" : false
   },
   {
     "id": "M8",
     "name": "Qing",
     "unlockedByLeader" : ["L7"],
     "unlockedByCivilizations" : ["A4", "E6", "E7"],
-    "unlockedByConditions" : ["Improve 3 Jade."]
+    "unlockedByConditions" : ["Improve 3 Jade."],
+    "cultural" : false,
+    "diplomatic" : true,
+    "economic" : true,
+    "expansionist" : true,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "M9",
     "name": "Russia",
     "unlockedByLeader" : ["L5"],
     "unlockedByCivilizations" : ["A3", "E7"],
-    "unlockedByConditions" : ["Have 3 Tundra settlements."]
+    "unlockedByConditions" : ["Have 3 Tundra settlements."],
+    "cultural" : true,
+    "diplomatic" : false,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : true
   },
   {
     "id": "M10",
     "name": "Siam",
     "unlockedByLeader" : [],
     "unlockedByCivilizations" : ["A5", "E2"],
-    "unlockedByConditions" : ["Have 4 Temples.", "Improve 3 Ivory."]
+    "unlockedByConditions" : ["Have 4 Temples.", "Improve 3 Ivory."],
+    "cultural" : true,
+    "diplomatic" : true,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : false
   }
 ]

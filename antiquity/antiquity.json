@@ -4,69 +4,129 @@
     "name": "Aksum",
     "historic": [],
     "geographic": ["L1", "L10", "L12"],
-    "strategic": ["L9"]
+    "strategic": ["L9"],
+    "cultural" : true,
+    "diplomatic" : false,
+    "economic" : true,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "A2",
     "name": "Egypt",
     "historic": ["L3", "L10"],
     "geographic": ["L1", "L13", "L12"],
-    "strategic": ["L23", "L8", "L9"]
+    "strategic": ["L23", "L8", "L9"],
+    "cultural" : true,
+    "diplomatic" : false,
+    "economic" : true,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "A3",
     "name": "Greece",
     "historic": [],
     "geographic": ["L6", "L13", "L15", "L16"],
-    "strategic": ["L4", "L5"]
+    "strategic": ["L4", "L5"],
+    "cultural" : true,
+    "diplomatic" : true,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "A4",
     "name": "Han",
     "historic": [],
     "geographic": ["L7"],
-    "strategic": []
+    "strategic": [],
+    "cultural" : false,
+    "diplomatic" : true,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : true
   },
   {
     "id": "A5",
     "name": "Khmer",
     "historic": ["L2"],
     "geographic": ["L22", "L24", "L11", "L20"],
-    "strategic": []
+    "strategic": [],
+    "cultural" : false,
+    "diplomatic" : false,
+    "economic" : false,
+    "expansionist" : true,
+    "militaristic" : false,
+    "scientific" : true
   },
   {
     "id": "A6",
     "name": "Maurya",
     "historic": ["L2"],
     "geographic": ["L22", "L20", "L26", "L21"],
-    "strategic": []
+    "strategic": [],
+    "cultural" : false,
+    "diplomatic" : false,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : true,
+    "scientific" : true
   },
   {
     "id": "A7",
     "name": "Maya",
     "historic": [],
     "geographic": ["L18"],
-    "strategic": ["L14"]
+    "strategic": ["L14"],
+    "cultural" : false,
+    "diplomatic" : true,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : true
   },
   {
     "id": "A8",
     "name": "Mississippian",
     "historic": [],
     "geographic": ["L24", "L19"],
-    "strategic": ["L11", "L14", "L18"]
+    "strategic": ["L11", "L14", "L18"],
+    "cultural" : false,
+    "diplomatic" : false,
+    "economic" : true,
+    "expansionist" : true,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "A9",
     "name": "Persia",
     "historic": ["L12", "L21", "L26"],
     "geographic": [],
-    "strategic": ["L25", "L17"]
+    "strategic": ["L25", "L17"],
+    "cultural" : false,
+    "diplomatic" : false,
+    "economic" : true,
+    "expansionist" : false,
+    "militaristic" : true,
+    "scientific" : false
   },
   {
     "id": "A10",
     "name": "Rome",
     "historic": ["L3"],
     "geographic": ["L6", "L8", "L23", "L15", "L16", "L17", "L25"],
-    "strategic": ["L4", "L5"]
+    "strategic": ["L4", "L5"],
+    "cultural" : false,
+    "diplomatic" : false,
+    "economic" : true,
+    "expansionist" : false,
+    "militaristic" : true,
+    "scientific" : false
   }
 ]
