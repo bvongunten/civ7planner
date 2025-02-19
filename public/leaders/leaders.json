@@ -1,106 +1,262 @@
 [
   {
     "id": "L1",
-    "name": "Amina"
+    "name": "Amina",
+    "cultural" : false,
+    "diplomatic" : false,
+    "economic" : true,
+    "expansionist" : false,
+    "militaristic" : true,
+    "scientific" : false
   },
   {
     "id": "L2",
-    "name": "Ashoka, World Renouncer"
+    "name": "Ashoka, World Renouncer",
+    "cultural" : false,
+    "diplomatic" : true,
+    "economic" : false,
+    "expansionist" : true,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "L3",
-    "name": "Augustus"
+    "name": "Augustus",
+    "cultural" : true,
+    "diplomatic" : false,
+    "economic" : false,
+    "expansionist" : true,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "L4",
-    "name": "Benjamin Franklin"
+    "name": "Benjamin Franklin",
+    "cultural" : false,
+    "diplomatic" : true,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : true
   },
   {
     "id": "L5",
-    "name": "Catherine the Great"
+    "name": "Catherine the Great",
+    "cultural" : true,
+    "diplomatic" : false,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : true
   },
   {
     "id": "L6",
-    "name": "Charlemagne"
+    "name": "Charlemagne",
+    "cultural" : false,
+    "diplomatic" : false,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : true,
+    "scientific" : true
   },
   {
     "id": "L7",
-    "name": "Confucius"
+    "name": "Confucius",
+    "cultural" : false,
+    "diplomatic" : false,
+    "economic" : false,
+    "expansionist" : true,
+    "militaristic" : false,
+    "scientific" : true
   },
   {
     "id": "L8",
-    "name": "Friedrich, Oblique"
+    "name": "Friedrich, Oblique",
+    "cultural" : false,
+    "diplomatic" : false,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : true,
+    "scientific" : true
   },
   {
     "id": "L9",
-    "name": "Harriet Tubman"
+    "name": "Harriet Tubman",
+    "cultural" : false,
+    "diplomatic" : true,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : true,
+    "scientific" : false
   },
   {
     "id": "L10",
-    "name": "Hatshepsut"
+    "name": "Hatshepsut",
+    "cultural" : true,
+    "diplomatic" : false,
+    "economic" : true,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "L11",
-    "name": "Himiko, Queen of Wa"
+    "name": "Himiko, Queen of Wa",
+    "cultural" : false,
+    "diplomatic" : true,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : true
   },
   {
     "id": "L12",
-    "name": "Ibn Battuta"
+    "name": "Ibn Battuta",
+    "cultural" : false,
+    "diplomatic" : false,
+    "economic" : false,
+    "expansionist" : true,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "L13",
-    "name": "Isabella"
+    "name": "Isabella",
+    "cultural" : false,
+    "diplomatic" : false,
+    "economic" : true,
+    "expansionist" : true,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "L14",
-    "name": "José Rizal"
+    "name": "José Rizal",
+    "cultural" : true,
+    "diplomatic" : true,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "L15",
-    "name": "Lafayette"
+    "name": "Lafayette",
+    "cultural" : true,
+    "diplomatic" : true,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "L16",
-    "name": "Machiavelli"
+    "name": "Machiavelli",
+    "cultural" : false,
+    "diplomatic" : true,
+    "economic" : true,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "L17",
-    "name": "Napoleon, Emperor"
+    "name": "Napoleon, Emperor",
+    "cultural" : false,
+    "diplomatic" : true,
+    "economic" : true,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "L18",
-    "name": "Pachacuti"
+    "name": "Pachacuti",
+    "cultural" : false,
+    "diplomatic" : false,
+    "economic" : true,
+    "expansionist" : true,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "L19",
-    "name": "Tecumseh"
+    "name": "Tecumseh",
+    "cultural" : false,
+    "diplomatic" : true,
+    "economic" : true,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "L20",
-    "name": "Trung Trac"
+    "name": "Trung Trac",
+    "cultural" : false,
+    "diplomatic" : false,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : true,
+    "scientific" : true
   },
   {
     "id": "L21",
-    "name": "Xerxes, King of Kings"
+    "name": "Xerxes, King of Kings",
+    "cultural" : false,
+    "diplomatic" : false,
+    "economic" : true,
+    "expansionist" : false,
+    "militaristic" : true,
+    "scientific" : false
   },
   {
     "id": "L22",
-    "name": "Ashoka, World Conqueror"
+    "name": "Ashoka, World Conqueror",
+    "cultural" : false,
+    "diplomatic" : true,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : true,
+    "scientific" : false
   },
   {
     "id": "L23",
-    "name": "Friedrich, Baroque"
+    "name": "Friedrich, Baroque",
+    "cultural" : true,
+    "diplomatic" : false,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : true,
+    "scientific" : false
   },
   {
     "id": "L24",
-    "name": "Himiko, High Shaman"
+    "name": "Himiko, High Shaman",
+    "cultural" : true,
+    "diplomatic" : true,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : false
   },
   {
     "id": "L25",
-    "name": "Napoleon, Revolutionary"
+    "name": "Napoleon, Revolutionary",
+    "cultural" : true,
+    "diplomatic" : false,
+    "economic" : false,
+    "expansionist" : false,
+    "militaristic" : true,
+    "scientific" : false
   },
   {
     "id": "L26",
-    "name": "Xerxes, the Achaemenid"
+    "name": "Xerxes, the Achaemenid",
+    "cultural" : true,
+    "diplomatic" : false,
+    "economic" : true,
+    "expansionist" : false,
+    "militaristic" : false,
+    "scientific" : false
   }
 ]

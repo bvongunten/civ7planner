@@ -71,7 +71,7 @@
 }
 
 .entry-description {
-  white-space: nowrap; /* Prevent breaking between lines */
+  white-space: nowrap;
   font-size: 8px;
   color: white;
   text-align: center;
@@ -82,12 +82,47 @@
 }
 
 .unlock-description {
-  white-space: nowrap; /* Prevent breaking between lines */
-  font-size: 8px;
-  color: orange;
+  white-space: nowrap;
+  font-size: 10px;
+  color: red;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 100%;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.title {
+  text-align: center;
+}
+
+
+.footer {
+  white-space: nowrap;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.footer a {
+  color: white;
+  font-weight: bold;
+  font-size: inherit;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
